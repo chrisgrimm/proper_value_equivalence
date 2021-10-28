@@ -12,6 +12,12 @@ source venv/bin/activate && \
 pip install -r requirements.txt
 ```
 
+Also requires a system installation of latex
+```bash
+sudo apt install texlive texlive-latex-extra texlive-fonts-recommended dvipng cm-super && \
+pip install latex
+```
+
 ## General
 To generate the toy plots described in the paper one must first generate data using the ``main.py`` file and then visualize that data using the ``experiment_visualizations.ipynb`` notebook. 
 
