@@ -7,6 +7,7 @@ Requires python >= 3.8
 ```bash
 git clone git@github.com:chrisgrimm/proper_value_equivalence.git && \
 cd proper_value_equivalence && \
+mkdir visuals && \
 python3.8 -m venv venv && \
 source venv/bin/activate && \
 pip install -r requirements.txt
